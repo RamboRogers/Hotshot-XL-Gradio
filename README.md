@@ -19,7 +19,7 @@ python3 app.py
 pip install virtualenv --upgrade
 virtualenv -p $(which python3) venv
 source venv/bin/activate
-cd env
+cd venv
 git clone https://github.com/RamboRogers/Hotshot-XL-Gradio
 cd Hotshot-XL-Gradio
 pip install -r requirements.txt
